@@ -1,12 +1,11 @@
-package org._3HCompany.microservices;
+package org._3HCompany.microservice.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UAAApplication {
-
+public class CommonApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UAAApplication.class, args);
+        SpringApplication.run(CommonApplication.class, args);
     }
 }
